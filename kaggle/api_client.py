@@ -166,6 +166,8 @@ class ApiClient(object):
 
         self.last_response = response_data
 
+        print(response_data)
+
         return_data = response_data
         if _preload_content:
             # deserialize response data
